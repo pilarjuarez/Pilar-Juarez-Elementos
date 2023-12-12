@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Elementos de Disney</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap');
+      </style>
+      <link rel="website icon" type="png" href="imag/iconodisney.png">
+</head>
+<body>
+   <div class="logoelementos">
+<img src="imag/logo.png" alt="Elementos" class="logo">
+</div>
+
+    <div class="iframe-container">
+        <iframe src="https://open.spotify.com/embed/track/6R5fYCySNHrqo4Og6O1ppn?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+<div class="texto-container">
+    <p>Elegí tu elemento favorito<br>
+    y conoce sobre sus características</p>
+</div>
+    <div class="container">
+        
+        <div class="orbit">
+            <div class="element agua raise">
+                <a href="agua.html">
+                <img src="imag/agua.jpg" alt="Agua">
+            </a>
+            </div>
+            <div class="element tierra raise">
+                <a href="tierra.html">
+                <img src="imag/tierra.jpg" alt="Tierra">
+            </a>
+            </div>
+            <div class="element fuego raise">
+                <a href="fuego.html">
+                <img src="imag/fuego.jpg" alt="Fuego">
+            </a>
+            </div>
+            <div class="element aire raise">
+                <a href="aire.html">
+                <img src="imag/aire.jpg" alt="Aire">
+            </a>
+            </div>
+        </div>
+    </div>
+   <!-- FORMULARIO -->
+   <div class="formulario-container" onmouseover="cambiarColor()" onmouseout="restaurarColor()">
+    <h3 class="mb-3" style="font-size: 20px;">¿Te gusta la web? ¿Alguna idea para sumar? <br>¡Contanos! Dejá tu reseña o sugerencia.</h3>
+    <form class="custom-form" action="gracias.html">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"required></textarea>
+            <div id="emailHelp" class="form-text"></div>
+           
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required></textarea>
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Tu mensaje</label>
+            <textarea class="form-control" rows="4" id="exampleInputEmail1"required></textarea>
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <button type="submit" class="btn btn-info">Enviar</button>
+    </form>
+</div>
+
+</div>
+<script src="javahome.js"></script>
+
+</body>
+<footer class="bg-white text-dark text-center py-3">
+        <img src="imag/disney.png" class="card-img-top" alt="Disney Logo" style="max-width: 100px; margin: 0 auto;">
+        <p style="margin-top: 10px;font-size: 16px ">&copy; Disney &copy; Disney•Pixar &copy; &trade; Lucasfilm LTD &copy; 2022 MARVEL. Reservados todos los derechos, Disney Entertainment</p>
+    </footer>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-image: url(imag/gracias.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            color: white;
+            font-family: 'Share', sans-serif;
+            overflow-y: hidden;
+            padding: 20px; 
+
+        }
+        .texto {
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-right: 20px;
+            max-width: 300px;
+            font-size: 30px;
+        }
+        .circuloboton {
+            width: 80px; 
+            height: 80px; 
+            border-radius: 50%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px; 
+            cursor: pointer;
+            margin-left: auto; 
+            margin-right: 30px;
+            position: fixed;
+            bottom: 20px; 
+            right: 20px; 
+            transition: transform 0.3s ease;
+}
+
+.circuloboton:hover {
+    transform: scale(1.1);
+}
+        .circuloboton img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+        
+        .elementos {
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+            border: 3px solid rgb(0, 0, 0); 
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            font-family: "Montserrat", sans-serif;
+        }
+        @media (max-width: 768px) {
+            .circuloboton {
+                margin-bottom: 350px;
+            }
+            }
+    </style>
+    <link rel="website icon" type="png" href="imag/iconodisney.png">
+</head>
+<body>
+
+    <div class="texto">
+        <h3 class=" mb-3">Gracias por ayudarnos a crecer!</h3>
+        <p>Pilar Juarez</p>
+    </div>
+    <div class="circuloboton elementos" onclick="window.location.href='index.html'">
+        <img src="imag/logo.png" alt="Elementos">
+    </div>
+    <footer class="footer">
+        <img src="imag/disney.png" class="card-img-top" alt="Disney Logo" style="max-width: 100px; margin: 0 auto;">
+        <p>&copy; Disney &copy; Disney•Pixar &copy; &trade; Lucasfilm LTD &copy; 2022 MARVEL. Reservados todos los derechos, Disney Entertainment</p>
+    </footer>
+</body>
+</html>
